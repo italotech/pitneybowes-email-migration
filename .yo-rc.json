@@ -1,0 +1,48 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "PitneyBowesEmailMigrationApplication",
+    "packageName": "corp.santander.br.msg",
+    "packageFolder": "corp/santander/br/msg",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "oracle",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "pt-br",
+    "languages": [
+      "en",
+      "es",
+      "pt-br"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.0.1",
+    "jwtSecretKey": "ODA0MDQyMWE1YWZlYjFhMjdkMTUxZDY4YWI5N2M5MTI0M2FkOTAyNTY0Yzk1YmViMGEzNjg5MjViZDg4Y2ZmYjhkMDhmMWUzYjJhYTVjYWM5NDI2ZWUxNmVmM2VjMmJmNWU0ZWQ2Y2Q3NWU5MWY5YTcyZDA1NDcxYzJiN2Y4YjQ=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "italotech",
+  "repository-name": "pitneybowes-email-migration"
+}
